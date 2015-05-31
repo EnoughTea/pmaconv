@@ -34,6 +34,6 @@ Convert images in the some directory non-recursively to non-premultiplied alpha 
 ### NuGet references
 You may notice that NuGet packages are not in the repository, so do not forget to set up package restoration in Visual Studio:
 
-Tools menu Å® Options Å® Package Manager Å® General Å® "Allow NuGet to download missing packages during build" should be selected. 
+Tools menu ‚Üí Options ‚Üí Package Manager ‚Üí General ‚Üí "Allow NuGet to download missing packages during build" should be selected. 
 
 If you have a build server then it needs to be setup with an environment variable 'EnableNuGetPackageRestore' set to true.
